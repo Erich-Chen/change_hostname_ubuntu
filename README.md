@@ -1,3 +1,10 @@
+# New command "hostnamectl" introduced in Ubutu 13.04
+```
+hostnamectl set-hostname new-hostname
+```
+
+
+
 # change_hostname_ubuntu
 a quick dirty script to change hostname for Ubuntu system.  
 tested on Ubuntu Server 16.04 LTS
