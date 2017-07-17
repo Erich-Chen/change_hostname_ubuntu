@@ -4,7 +4,7 @@ tested on Ubuntu Server 16.04 LTS
 
 # How to user
 ```
-rm -f change_hostname_ubuntu.sh change_hostname_ubuntu.sh.bak
+mv -f change_hostname_ubuntu.sh change_hostname_ubuntu.sh.bak
 wget https://raw.githubusercontent.com/ericchenkai/change_hostname_ubuntu/master/change_hostname_ubuntu.sh && sudo chmod +x change_hostname_ubuntu.sh
 ./change_hostname_ubuntu.sh
 ```
