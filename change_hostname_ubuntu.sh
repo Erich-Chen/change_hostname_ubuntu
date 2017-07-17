@@ -16,7 +16,7 @@ echo "3"
 
 echo "The hostname is now applied as $NEW_HOSTNAME"
 echo "###### NOTE ######"
-echo "FYI: your previous hostname WAS $OLD_HOSTNAME"
+echo "FYI: your previous hostname was $OLD_HOSTNAME and saved in variable 'OLD_HOSTNAME'"
 echo "You may run this script again to change it back"
 
-exec bash
+echo "Reboot is recommended to make sure hostname is permanently changed."
