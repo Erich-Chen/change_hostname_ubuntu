@@ -1,4 +1,4 @@
-OLD_HOSTNAME=$(hostname)
+OLD_HOSTNAME=$(cat /etc/hostname)
 
 if [ -n "$1" ]; then 
     NEW_HOSTNAME=$1;
